@@ -16,5 +16,10 @@ public class RectangleAksi {
         
         Rectangle r2 = new Rectangle();
         r2.cetakinfo();
+        r2.cetakLuas();
+        
+        Rectangle r3 = new Rectangle();
+        r3.cetakinfo();
+        r3.cetakLuas();
     }
 }
