@@ -2,6 +2,11 @@ package Praktik02;
 public class Rectangle {
     double panjang;
     double lebar;
+
+    public Rectangle() {
+        panjang=5;
+        lebar=3;
+    }
     
     void cetakinfo(){
         System.out.println("===================");
