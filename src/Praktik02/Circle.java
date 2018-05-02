@@ -10,9 +10,15 @@ public class Circle {
     }
 
     public Circle() {
-        phi = 22/7;
+        phi = 3.14;
         jari=9;
     }
+
+    public Circle(double phi, double jari) {
+        this.phi = phi;
+        this.jari = jari;
+    }
+    
     
     double hitungLuas(){
         double luas;
