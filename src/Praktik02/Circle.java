@@ -8,6 +8,11 @@ public class Circle {
         System.out.println("JARI-JARI   : "+jari);
         System.out.println("=======================");
     }
+
+    public Circle() {
+        phi = 22/7;
+        jari=9;
+    }
     
     double hitungLuas(){
         double luas;
@@ -16,6 +21,6 @@ public class Circle {
     }
     
     void cetakLuas(){
-        System.out.println("Luas Lingkaran :"+hitungLuas());
+        System.out.println("Luas Lingkaran = "+hitungLuas());
     }
 }
