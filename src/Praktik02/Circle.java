@@ -8,4 +8,10 @@ public class Circle {
         System.out.println("JARI-JARI   : "+jari);
         System.out.println("=======================");
     }
+    
+    double hitungLuas(){
+        double luas;
+        luas = phi*jari*jari;
+        return luas;
+    }
 }
