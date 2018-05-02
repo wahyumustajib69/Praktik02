@@ -14,4 +14,8 @@ public class Circle {
         luas = phi*jari*jari;
         return luas;
     }
+    
+    void cetakLuas(){
+        System.out.println("Luas Lingkaran :"+hitungLuas());
+    }
 }

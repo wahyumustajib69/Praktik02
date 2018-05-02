@@ -7,5 +7,6 @@ public class CircleAksi {
         
         c1.cetakinfo();
         System.out.println("Luas Lingkaran = "+c1.hitungLuas()+"cm");
+        c1.cetakLuas();
     }
 }
